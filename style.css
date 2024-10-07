@@ -187,3 +187,13 @@ header .headerLinks ul li a{
     font-size: 20px;
     font-weight: 800;
 }
+
+
+/* Footer */
+
+footer{
+    background: #1f2937;
+    text-align: center;
+    padding: 30px;
+    color: #f9faf8;
+}
