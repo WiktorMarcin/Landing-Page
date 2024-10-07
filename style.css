@@ -7,6 +7,9 @@
 header, .firstPage{
     background: #1f2937;
     color: white;
+}
+
+header, .firstPage, .secondPage{
     padding: 0 10vw;
 }
 
@@ -73,7 +76,7 @@ header .headerLinks ul li a{
 }
 
 .firstPage .rightPage .box{
-    width: 500px;
+    width: 100%;
     height: 200px;
     background: #646466;
     display: flex;
@@ -82,3 +85,40 @@ header .headerLinks ul li a{
 }
 
 
+
+
+/* Second Page */
+
+.secondPage{
+    /* background: #dadada; */
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+
+.secondPage .title {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.secondPage .title h3{
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.secondPage .content{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.secondPage .content .boxPack{
+    width: 150px;
+    text-align: center;
+}
+
+.secondPage .content .boxPack .box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid  #3882F6;
+    border-radius: 10px;
+}
