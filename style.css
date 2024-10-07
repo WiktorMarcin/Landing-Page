@@ -9,7 +9,9 @@ header, .firstPage{
     color: white;
 }
 
-header, .firstPage, .secondPage{
+/* Regular page padding */
+
+header, .firstPage, .secondPage, .fourthPage{
     padding: 0 10vw;
 }
 
@@ -45,6 +47,7 @@ header .headerLinks ul li a{
 .firstPage{
     display: flex;
     padding-bottom: 100px;
+    gap: 40px;
 }
 
 .firstPage .leftPage{
@@ -90,7 +93,6 @@ header .headerLinks ul li a{
 /* Second Page */
 
 .secondPage{
-    /* background: #dadada; */
     padding-top: 40px;
     padding-bottom: 100px;
 }
@@ -121,4 +123,67 @@ header .headerLinks ul li a{
     height: 150px;
     border: 3px solid  #3882F6;
     border-radius: 10px;
+}
+
+
+/* Third Page */
+
+.thirdPage{
+    padding: 0 20vw;
+    background: #e5e7eb;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.thirdPage .quote p{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 100;
+    color: #1f2937;
+}
+
+.thirdPage .author{
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    margin-top: 20px;
+    font-weight: 900;
+    font-size: 23px;
+}
+
+
+/* Fourth Page */
+
+.fourthPage {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.fourthPage .content{
+    width: 76%;
+    padding: 30px 10vw;
+    border-radius: 10px;
+    background: #3882F6;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fourthPage .content .left h5{
+    font-size: 24px;
+}
+
+.fourthPage .content .left p{
+    font-size: 16px;
+}
+
+.fourthPage .content .right button{
+    background: #3882F6;
+    border: 2px solid #f9faf8;
+    padding: 8px 28px;
+    color: #f9faf8;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 800;
 }
